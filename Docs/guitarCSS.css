@@ -1,0 +1,64 @@
+.wrapper{
+    margin: 0 auto;
+}
+   .intro h1, .intro p{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.carousel{
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.service_item{
+    width: 40%;
+
+    margin: auto;
+    margin-bottom: 2em;
+}
+.service_details{
+    display: flex;
+}
+.service_text{
+    width: 90%;
+}
+
+.service_item h3{
+    text-align: center;
+}
+.service_item img{
+    max-width: 250px;
+    width: 100%;
+
+    max-height: 250px;
+    height: 100%;
+}
+.service_item button,
+.btn{
+    background: var(--btn_service);
+    color: var(--txt_edge);
+    font-size: 1.25em;
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    transition: all .1s ease;
+}
+.service_item button:hover
+.btn:hover{
+    scale: 105%;
+    transition: all .1s ease;
+}
+
+.card{
+    background-color: var(--txt_body);
+}
+.card li,
+.card p{
+    list-style: none;
+    color: var(--btn_service);
+}
+
