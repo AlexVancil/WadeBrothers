@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
 }
 body, .wrapper{
-    background: url(/Assets/BG_Body.png);
+    background: url(../Assets/BG_Body.png);
 }
 
 h1, h2{
